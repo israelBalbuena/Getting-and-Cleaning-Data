@@ -72,7 +72,7 @@ averages <- some_measurements %>% group_by(Activity_label, Subject) %>%
 ################################################################################
 
 
-write.table(averages,"Tidy_Data.txt", col.names = F)
+write.table(averages,"Tidy_Data.txt", row.names = F)
 
 
 
